@@ -2,6 +2,8 @@ package com.ylw.mybatis.entity;
 
 public class User {
 
+
+
 	private String NAME;
 	private Integer age;
 

@@ -14,4 +14,6 @@ public interface UserMapper {
 	@ExtSelect("select * from t_users where Name=#{Name} and age=#{age} ")
 	User selectUser(@ExtParam("Name") String Name, @ExtParam("age") String age);
 
+
+
 }

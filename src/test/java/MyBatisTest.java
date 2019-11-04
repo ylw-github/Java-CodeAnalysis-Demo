@@ -12,8 +12,7 @@ public class MyBatisTest {
     public void test() throws SQLException {
         UserMapper userMapper = SqlSession.getMapper(UserMapper.class);
         User selectUser = userMapper.selectUser("Dumas", "26");
-        System.out.println(
-                "结果:" + selectUser.getNAME() + "," + selectUser.getAge());
+        System.out.println("结果:" + selectUser.getNAME() + "," + selectUser.getAge());
 
     }
 
